@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./pexels-shawn-stutzman-1010513.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  height: 100vh;
+  display: flex;
+}
+.Main {
+  width: 22pc;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 4px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  margin: 10% 0;
+}
+h5 .Main-span {
+  margin-right: 20%;
+}
+.Btns {
+  display: flex;
+  margin: auto;
+}
+.Btns input {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+  font-weight: 545;
+}
+.Btns .Button-1 {
+  margin-right: 35px;
+}
+.Btns input:hover {
+  background-color: rgba(36, 35, 35, 0.5);
+}
